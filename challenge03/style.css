@@ -10,6 +10,7 @@ body {
 .hero {
     background-color: #23424A;
     padding: 100px 0;
+    color: #FFFFFFD9;
 }
 
 .container {
@@ -19,18 +20,17 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 900;
     color: white;
     width: 75%;
 }
 
-p {
+.hero p {
     width: 80%;
-    font-size: 21px;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #FFFFFFD9;
 }
 
 button {
@@ -43,4 +43,35 @@ button {
     border-radius: 50px;
     cursor: pointer;
     margin-top: 40px;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+}
+
+.col {
+    text-align: center;
+}
+
+p {
+    font-size: 1.125rem;
+}
+
+.two-columns {
+    background-color: #136C72;
+    padding: 3em 0;
+    color: #FFFFFFD9;
+}
+
+.three-columns {
+    padding: 3em 0;
+}
+
+.accent-text {
+    color: #87629A;
+}
+
+h2 {
+    font-size: 2rem;
 }
